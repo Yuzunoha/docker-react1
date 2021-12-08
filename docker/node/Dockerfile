@@ -1,5 +1,5 @@
 FROM node:16-alpine
 
-RUN npm install -g create-react-app
+RUN cd react-sample && npm install;
 
 WORKDIR /usr/src/app
